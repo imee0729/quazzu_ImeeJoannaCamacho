@@ -1,230 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                   <!-- Compiled and minified CSS -->
-                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">    
-                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
-              <!-- Font awesome -->
-              <script src="https://kit.fontawesome.com/aaa46b1ebf.js" crossorigin="anonymous"></script>
-    <title>Travel Diaries</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Material-->
+  <!-- Font Awesome --> 
+  <script src="https://kit.fontawesome.com/aaa46b1ebf.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  <title>Travel Diaries</title>
 </head>
-<body>
-    <div class="navbar-fixed">
-        <nav class=" deep-purple darken-2 ">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">Travel</a>
-                    <a href="#" data-target="slide-out" class="sidenav-trigger">
-                        <i class="material-icons">local_airport</i>
-                    </a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                      <li class="active"><a href="sass.html">Home</a></li>
-                      <li><a href="badges.html">About</a></li>
-                      <li><a href="collapsible.html">Contact</a></li>
-                    </ul>
-                  </div>                    
-                </nav>
-            </div>
-    
+<body id="Home">
+<!-- Nav Bar -->
+<!-- Header -->  
+<header class="main-header">
+  <nav class="blue darken-2" role="navigation">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo logo">Travel Diaries</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+          <i class="material-icons">local_airport</i>
+        <ul class="right hide-on-medium-and-down">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Places">Services</a></li>
+          <li><a href="#Blog">Blog</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a class=" purple-text waves-effect waves-light btn">Click here</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <ul id="slide-out" class="sidenav">
-        <li>
-            <div class="user-view">
-                <div class="background">
-                    <img src="img/travelpic1.jpg">
-                </div>
-                <a href="#user">
-                    <img class="circle" src="img/travelpic2.jpg">
-                </a>
-                <a href="#name">
-                    <span class="red-text name">Imee</span>
-                </a>
-                <a href="#email">
-                    <span class="white-text email">catherinelouise0807@gmail.com</span>
-                </a>
-            </div>
-    </li>
-      <l>
-        <a href="https://www.facebook.com"></a>
-        <i class="fab fa-facebook medium blue-text"></i>
-          </a>
+
+
+  <!-- Section Slider -->
+
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/travelpic2.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Capture the World</h3>
+          <h5 class="dark grey-text text-lighten-3">To my mind, the greatest reward and luxury of travel is to be able to experience everyday things as if for the first time, to be in a position in which almost nothing is so familiar it is taken for granted.</h5>
+          <a class=" purple-text waves-effect waves-dark btn btn-large">click me</a>
+
+        </div>
       </li>
-    <li>
-       
-        <!-- Button with material icons -->
-        <a href="https://www.instagram.com"></a>
-        <i class="fab fa-instagram medium red-text"></i>
-    </a>
-    </li>
       <li>
-          <div class="divider"></div>
-        </li>
+        <img src="img/travelpic3.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="black-text">Often times, I stop and reflect on how travel has changed my life. During these times, I realize how much travel is a part of me. During my teenage years, I would read books and wonder what it would be like to go to all these exotic places.</h3>
+          <h5 class="dark purple-text text-darken-4">My Destination</h5>
+          <a class=" purple-text waves-effect waves-dark btn btn btn-small">click me</a>
+
+        </div>
+      </li>
       <li>
-        <a href="https://www.twitter.com"></a>
-        <i class="fab fa-twitter-square large pink-text"></i>
-    </a>
-     </li>
+        <img src="img/travelpic1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3> “Travel is never a matter of money, but of courage.”</h3>
+          <h5 class="dark purple-text text-darken-4">“A journey of a thousand miles must begin with a single step.”
+          </h5>
+          <a class="dark purple-text waves-effect waves-dark btn">click me</a>
+      </div>
+      </li>
       <li>
-        <a href="#"></a>
-        <i class="fas fa-globe-americas large black-text"></i>
-      </a>
-        </li>
+        <img src="img/Europe.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3> “There is no moment of delight in any pilgrimage like the beginning of it.”
+          </h3>
+          <h5 class="light grey-text text-lighten-3"> “We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures we can have if only we seek them with our eyes open.”
+          </h5>
+          <a class="dark purple-text waves-effect waves-dark btn">click me</a>
+
+        </div>
+      </li>
     </ul>
-    
+  </section>
+      
+  <!-- Section: Services -->
+  
+  <div id="Service" class="container">
+    <div class="section">
+      <!-- Icon Section -->
+      <div class="row">
+
+        <div class="col s4 m6">
+          <div class="icon-block">
+            <h1 class="center dark-purple-text">
+              <i class=" large material-icons">flash_on</i>
+            </h1>
+            <h5 class="center">Discover</h5>
+          <p class=" center Dark red-text">The biggest adventure you can take is to live the life of your dreams. – Oprah Winfrey
+          </p>
+          </div>
           
         </div>
-        
-            
-    <div class="container">
-        <h1 class="blue-text">Travel Diaries</h1> 
-        <div class="row">
-            <div class="col s1 m12">
-                <!-- Simple card without Title -->
-                <div class="card">
-                    <div class="card-content">
-
-                    </div>
-                </div> 
-                <!-- Add color --> 
-                <div class="card red darken-2">
-                    <div class="card-content white-text">
-                      <p>Fill your life with experiences, not things.</p>
-                      <p>“We leave something of ourselves behind when we leave a place, we stay there, even though we go away. And there are things in us that we can find again only by going back there.”
-                    </p>
-                    </div>
-                </div> 
-            </div>
-            </div> 
-            </div>
+        <div class="col s4 m6">
+          <div class="icon-block">
+            <h1 class="center dark-purple-text">
+              <i class=" large material-icons">camera</i>
+            </h1>
+            <h5 class="center dark-purple-text">Explore</h5>
+          <p class=" center Dark blue-text">The biggest adventure you can take is to live the life of your dreams. – Oprah Winfrey
+          </p>
         </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
 
-        <div class="row">
-            <div class="col s12 m12">
-                <!-- Card with image -->
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/travelpic1.jpg" alt="">
-                        <span class="card-title">My places</span>
-                    </div>
-                    <div class="card-content">
-                        <p>To travel to experience and learn... that is to live</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Take me</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col s12 m12">
-                    <!-- Card with image -->
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/travelpic4.jpg" alt="">
-                            <span class="card-title">Exploring vietnam</span>
-                            <a class="btn-floating halfway-fab waves-effect waves-light red">
-                                <i class="material-icons">add</i>
-                            </a>
-                                
+<!-- Section Blog -->
 
-                                </i>
-
-                            
-                    </div>
-                    <div class="card-content">
-                        <p>“The gladdest moment in human life is a departure into unknown lands.” – Sir Richard Burton</p>
-                    </div>
-                    <div class="card-action">
-                        <p>“Every dreamer knows that it is entirely possible to be homesick for a place you've never been to, perhaps more homesick than for familiar ground.”
-                        </p>
-                        <a href="#">Memories</a>
-                    </div>
-
-    <!-- Responsive video Embed -->
-         <div class="row">
-            <div class="col s2 m12">
-                <div class="video-container">
-                    <iframe width="662" height="372" src="https://www.bing.com/videos/search?view=detail&mid=0852157996BC8E9353D00852157996BC8E9353D0&q=Top Travel&shtp=GetUrl&shid=41fc5867-fc69-4779-a872-3064bbb8d2a7&shtk=MjUgQmVzdCBQbGFjZXMgdG8gVmlzaXQgaW4gdGhlIFVTQSB8IFBhcnQx&shdk=UGxlYXNlIFJlbWVtYmVyIHRvIFN1YnNjcmliZSEgaHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQy1kd0k2Zk1DY2FqUHVjaGpGdDVEMmcgRm9sbG93IG1lIG9uIFR3aXR0ZXI6IGh0dHBzOi8vZ29vLmdsL2VsNXBZbSBGYWNlYm9vazogaHR0cHM6Ly9nb28uZ2wvWGZsRHZqIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3CrS0tLS0tIDI1IEJlc3QgUGxhY2VzIHRvIFZpc2l0IGluIHRoZSBVU0EuIFdpdGggdGhlIFN0YXR1ZSBvZiBMaWJlcnR5IGFzIGEgbmF0aW9uYWwgaWNvbiwgdGhlIFVuaXRlZCBTdGF0ZXMgaXMgd2lkZWx5IGtub3duIGFzIHRoZSBMYW5kIG9mIC4uLg%3D%3D&shhk=9FFuSPVdz6D9pmzuG7ERo1o%2BJ2I%2BbgTTt4eOaqxDcJY%3D&form=VDSHOT&shth=OVP.264NgHIusr-AU93qw1xhgQEsDh title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-        </div>
-                </div>   
-            </div>
-        </div>
-
-    <div class="row">
-        <div class="col s12 m12">
-            <!-- Horizontal card -->
-            <div class="card horizontal">
-                <div class="card-image">
-                    <img src="img/travelpic3.jpg" alt="">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <span class="card-title">Vietnam</span>
-                        <p>“Why do you go away? So that you can come back. So that you can see the place you came from with new eyes and extra colors. And the people there see you differently, too. Coming back to where you started is not the same as never leaving.”
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">This Place</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m12">
-            <!-- Card Reveal -->
-            <div class="card">
-                <div class="card-image waves-effect waves-light">
-                    <img src="img/travelpic2.jpg" alt="" class="activator">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator">
-                        <i class="material-icons right">more_vert</i>
-                        Experience korea</span>
-                </div>
-                <!-- Inside of reveal -->
-                <div class="card-reveal">
-                    <span class="card-title">
-                        <i class="material-icons right">collapsible</i>
-                        Experience Korea</span>
-                        <p>“Travel is fatal to prejudice, bigotry, and narrow-mindedness, and many of our people need it sorely on these accounts. Broad, wholesome, charitable views of men and things cannot be acquired by vegetating in one little corner of the earth all one's lifetime.”
-                        </p>
-                        <p>“But that's the glory of foreign travel, as far as I am concerned. I don't want to know what people are talking about. I can't think of anything that excites a greater sense of childlike wonder than to be in a country where you are ignorant of almost everything. Suddenly you are five years old again. You can't read anything, you have only the most rudimentary sense of how things work, you can't even reliably cross a street without endangering your life. Your whole existence becomes a series of interesting guesses.”
-                        </p>
-                </div>
-            </div>
-             
-         <!-- End of container -->
+<section id="blog" class="section section-blog"></section>
+  <h1 class="center Dark purple-text">Journey ahead</h1>
+<div class="row">
+  <div class="col s2">
 </div>
-
-
-<footer class="page-footer white-text accent">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="black-text">Travel content</h5>
-          <p class="purple-text text-darken-4">“But that's the glory of foreign travel, as far as I am concerned. I don't want to know what people are talking about. I can't think of anything that excites a greater sense of childlike wonder than to be in a country where you are ignorant of almost everything. Suddenly you are five years old again. You can't read anything, you have only the most rudimentary sense of how things work, you can't even reliably cross a street without endangering your life. Your whole existence becomes a series of interesting guesses.”
+    <div class="card">
+      <div class="card-image">
+        <img src="img/hiking.jpg">
+        <span class="card-title">Living your Life</span>
+      </div>
+      <div class="card-content">
+        <p>We live in a wonderful world that is full of beauty, charm, and adventure. There is no end to the adventures we can have if only we seek them with our eyes open. – Jawaharial Nehru
         </p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="blue-text">Destination</h5>
-          <ul>
-            <li><a class="red-text text-lighten-3" href="#!">travel 1</a></li>
-            <li><a class="red-text text-lighten-3" href="#!">travel 2</a></li>
-            <li><a class="purple-text text-lighten-3" href="#!">travel 3</a></li>
-            <li><a class="purple-text text-lighten-3" href="#!">travel 4</a></li>
-          </ul>
-        </div>
+      </div>
+      <div class="card-action">
+        <a href="#">Read More</a>
+      </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2021 Copyright Text
-      <a class="black-text text-lighten-4 right" href="#!">More travel</a>
+  </div>
+</section>
+
+
+<!-- Section Follow -->
+
+<section class="section section-follow red darken-2 white-text">
+  <div class="container">
+    <div class="row">
+      <div class="s12 center">
+          <h4>Explore with me</h4>
+          <a href="#" class="blue-text">
+            <i class="fab fa-facebook fa-4x"></i>
+          </a>
+          <a href="#" class= "purple-text">
+            <i class="fab fa-instagram fa-4x"></i>
+          </a>
+          <a href="#" class="black-text">
+            <i class="fab fa-twitter fa-4x"></i>
+          </a>
       </div>
     </div>
-  </footer>
+  </div>
+
+</section>
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Destination</h5>
+        <p class="grey-text-darken-2">What you’ve done becomes the judge of what you’re going to do – especially in other people’s minds. When you’re traveling, you are what you are right there and then. People don’t have your past to hold against you. No yesterdays on the road.” – William Least Heat-Moon
+        </p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">e-mail</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">location</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">contact Us</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Social Media Account</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2021 Copyright Text
+    <a class="grey-text text-lighten-4 right" href="#!">More Travels</a>
+    </div>
+  </div>
+</footer>
 
 
 
@@ -238,19 +201,27 @@
 
 
 
-<!-- Jquery CDN -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
 
 <script>
-   $(document).ready(function(){
+  $(document).ready(function(){
     $('.sidenav').sidenav();
-  });
-    
-    $(document).ready(function() {
+  });  
 
-    });
+  $(document).ready(function(){
+    $('.slider').slider();
+  });
 </script>
 </body>
 </html>
